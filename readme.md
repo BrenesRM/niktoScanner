@@ -1,5 +1,6 @@
 Nikto Scanner with Docker and Python  
-This project is a containerized web vulnerability scanner using Nikto. It allows you to analyze websites for vulnerabilities by running a Nikto scan and saving the output in JSON format.  
+This project is a containerized web vulnerability scanner using Nikto. It allows you to analyze websites for vulnerabilities by running a Nikto scan and saving the output in JSON format.
+For educational use only.  
 
 Features  
 Automatically installs and configures Nikto with SSL/TLS support.  
