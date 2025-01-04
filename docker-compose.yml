@@ -1,0 +1,13 @@
+services:
+  nikto-scanner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./output:/output
+    entrypoint: ["python3", "/usr/src/app/run_scan.py"]
+networks:
+  default:
+    name: niktoscanner_default
